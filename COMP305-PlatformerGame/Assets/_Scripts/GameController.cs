@@ -3,6 +3,7 @@ using System.Collections;
 
 // reference to the UI namespace
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 // reference to manage my scenes
 using UnityEngine.SceneManagement;
