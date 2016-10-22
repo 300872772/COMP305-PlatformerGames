@@ -7,7 +7,23 @@ using UnityEngine.SceneManagement;
 
 // reference to manage my scenes
 using UnityEngine.SceneManagement;
+/**
+ * This is a Platformer game 
+ * 
+ * @FileName: GameController.cs
+ * @Author Md Mamunur Rahman
+ * @student ID: 300872772
+ * @Last Update 21-October-2016
+ * @description: this file is GameController cs file for the game
+ */
 
+/**  
+* <summary>  
+* This is the GameController class to control the Game.  
+* </summary>  
+*   
+* @class EnemyController  
+*/
 public class GameController : MonoBehaviour {
 	// PRIVATE INSTANCE VARIABLES ++++++++++++++++++
 	private int _livesValue;
@@ -26,6 +42,8 @@ public class GameController : MonoBehaviour {
 		set {
 			this._livesValue = value;
 			if (this._livesValue <= 0) {
+				this.LivesLabel.text = "Lives: 0" ;
+				SceneManager.LoadScene ("ReStart");
 
 			} else {
 				this.LivesLabel.text = "Lives: " + this._livesValue;
@@ -46,15 +64,28 @@ public class GameController : MonoBehaviour {
 
 
 
-
-	// Use this for initialization
+	/**
+        * <summary>
+        * This is the method for starting the EnemyController class which initiates value
+        * </summary>
+        * 
+        * @method Start
+        * @returns {void} 
+        */
 	void Start () {
 		this.LivesValue = 5;
 		this.ScoreValue = 0;
 
 	}
 	
-	// Update is called once per frame
+	/**
+        * <summary>
+        * This method is called once per frame.
+        * </summary>
+        * 
+        * @method Update
+        * @returns {void} 
+        */
 	void Update () {
 	}
 		

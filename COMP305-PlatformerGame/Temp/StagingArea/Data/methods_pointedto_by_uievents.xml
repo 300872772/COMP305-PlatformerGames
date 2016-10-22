@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="StartingController">
+			<method name="StartButtonClick"/>
+		</type>
+		<type fullname="ReStartingController">
+			<method name="ReStartButtonClick"/>
+		</type>
+	</assembly>
+</linker>

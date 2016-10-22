@@ -50,6 +50,7 @@
      <Compile Include="Assets\_Scripts\GameController.cs" />
      <Compile Include="Assets\_Scripts\KillScript.cs" />
      <Compile Include="Assets\_Scripts\PlayerController.cs" />
+     <Compile Include="Assets\_Scripts\ReStartingController.cs" />
      <Compile Include="Assets\_Scripts\StartingController.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

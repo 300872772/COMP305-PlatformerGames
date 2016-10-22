@@ -1,0 +1,2 @@
+GitHub Link: https://github.com/300872772/COMP305-PlatformerGame
+Azure Link: http://mamun-unityplatformergame.azurewebsites.net
